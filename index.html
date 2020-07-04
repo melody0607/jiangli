@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title>观中美关系</title>
+		<style>
+			<!--
+			/*网页分页的导航栏样式*/
+			.topDesktop{background-color:#0F085B;/*导航栏颜色*/
+						height:65px;
+						margin:0;
+						padding:20px 1px 50px 1px;
+						opacity:1}/*透明度*/
+			/*网页分页地名样式*/
+			#topSite{font-family: 华文楷体;
+					 text-align: center;
+					 color:#FFFFFF;/*"观中美关系"颜色*/
+					 font-size:50px;
+					 font-weight:bold/*text-shadow:5px 5px 5px #888888*/ /*opacity:1*/}
+			/*导航无序列表样式*/
+			ul{list-style-type: none;
+			   text-align:center;
+			   font-family: 黑体;
+			   font-size: 22px;
+			   color:#FFFFFF;
+			   word-spacing: 24px;}
+			/*定义列表项目的样式*/
+			li{display: inline;
+			   font-weight: bold}
+			.navbar ul li a{color:#FFFFFF;
+							text-decoration: none;}
+			/*body{background-image:url(pic/1.jpg)}*/
+			/*正文内容总概样式*/
+			.container{height: 100%;
+					   margin: 0;
+					   font-size: 18px;
+					   font-family: 华文楷体;
+					   line-height: normal;
+					   color: #585858}
+			.container1{width: 120px;		           
+				        margin: 1px;
+						padding-left: 15px;
+						padding-right: 15px;
+						padding-bottom: 10px;
+						word-spacing: normal;
+						float: right;
+						opacity: 100%;}
+			.container2{width: 400px;		           
+				        margin: 0 auto;
+						padding-bottom: 10px;
+						word-spacing: normal;
+						float: left}
+			/*针对视差滚动页样式*/
+			.ping1,.ping2,.ping3,.ping4,.ping5,.ping6{position: relative;
+													   opacity: 1;/*透明度*/
+													   background-position: center;/*正中*/
+													   background-size: cover;/*全覆盖*/
+													   background-repeat: no-repeat;/*背景不重复*/
+													   background-attachment: fixed/*实现视差滚动特效的重点，这里的fixed为固定*/}
+			/*插入的图组样式*/
+			.ping1{background-image: url(img/背景1.jpg);
+				   min-height: 600px/*层的最小高度*/}
+			.ping2{background-image: url(img/背景2.jpg);
+				   min-height: 300px/*层的最小高度*/}
+			.ping3{background-image: url(img/背景3.jpg);
+				   min-height: 300px/*层的最小高度*/}
+			.ping4{background-image: url(img/背景4.jpg);
+				   min-height: 300px/*层的最小高度*/}
+			.ping5{background-image: url(img/背景5.jpg);
+				   min-height: 300px/*层的最小高度*/}
+			.ping6{background-image: url(img/背景6.jpg);
+				   min-height: 600px/*层的最小高度*/}
+			/*解释框样式*/
+			section{text-align: left;
+					padding: 38px 100px;}
+			/*浅色解说框样式*/
+			.sectionWhite{background: #CEC9C9;
+						  color: #CEC9C9;
+						  box-shadow:50px 50px 50px #CEC9C9;
+						  text-align: center}/*方框阴影*/
+			.sectionWhite1{background: #CEC9C9;
+						  color: #CEC9C9;
+						  padding: 38px 100px 1600px;
+						  box-shadow:500px 500px 500px #CEC9C9}/*方框阴影*/
+			/*深色解说框样式*/
+			.sectionBlack{background: #82111f;
+						  color: #DDDDDD;
+						  box-shadow: 10px 10px 5px #888888}/*方框阴影*/
+			/*图片中文字样式设置*/
+			.ptext{position: absolute;/*定位*/
+				   top: 50%;
+				   width: 100%;
+				   text-align: center;
+				   font-family: 华文新魏;
+				   color: #FFFFFF;
+				   font-size: 40px;
+				   word-spacing: normal}
+			/*正文样式,包含首行缩进2字符*/
+		   	.articleText{color: #423131;
+	                 	 font-size: 19px;
+	               	  	 letter-spacing: 3px;
+	           		  	 line-height: 2.0;
+		                 text-indent: 2em;}
+			h3{text-align: center;
+			   color: #423131;
+			   font-size: 34px}
+			.img{width:100px;
+			 height: 100px;
+		     background: rgba(225,225,225,1);
+		     text-align: left}
+			.img1{width:872.5px;
+				 height: 620.5px;
+				 background: rgba(225,225,225,1)}
+			.div1{  background-color:#7E7979;
+					width: 300px;
+					height: auto;
+					opacity: 0.8;
+					float: left;
+					padding: 20px;
+					text-align: left}
+			.div2{	background-color:#7E7979;
+					width: 300px;
+					height: auto;
+					opacity: 0.8;
+					float: right;
+					padding: 20px;
+					text-align: left}
+			.p{font-family:方正粗黑宋简体;
+			   font-size: 10px;
+			   color: #423131;
+			   padding: 10px;
+			   text-align:left;
+			   background-color: #CEC9C9;
+			   float: right}
+			footer{font: normal;
+				   padding-top: 5px;
+			       text-align: center;
+				   color: #FFFFFF;
+				   font-family: "隶书";
+				   background-color: #0F085B}
+			body{background-color: black(148,119,0.47);
+				 margin: 0 auto;}
+			audio{width: 800px;
+			      height: 40px;}
+			.lucking{ margin: 0 auto;
+					  border: outset 4px black(124,80,7,0.96);
+					  width: 800px;
+					  height: 532px; }
+			.lucking img{width:100%; 
+						height:100%; }
+			-->
+		</style>
+	</head>
+
+	<body>
+		<article>
+			<header class="topDesktop"><!--导航栏，页眉-->
+				<span id="topSite">观中美关系</span><!--导航栏分页地名-中美关系-也就是此页面为介绍“中美关系”的详情页-->
+				
+				<div class="navContent"><!--Home为一组-->
+					<!-- 搜索框 -->
+					<form class="container2">
+						<input type="search" placeholder="...此处输入关键词搜索...">
+						<input type="submit" value="Search">
+					</form>
+					
+					<nav class="navbar">
+						<ul><!--导航栏无序列表插入-->
+							<li><a href="#a">时间线</a></li>
+							<li><a href="#b">经济“摩擦”</a></li>
+							<li><a href="#c">领导人介绍</a></li>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<!-- 注册 -->
+						    <li><a href="#">注册</a></li>
+					        <!-- 登录 -->
+						    <li><a href="#">登录</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<br>
+			<div class = "lucking" id = "_lucking">
+			<audio id="myaudio" src="music/bgm.mp3" controls="controls" autoplay="autoplay" loop="ture"></audio>
+				<img id = "img" alt="picture" src = "img/1.jpg"/>
+				<br>
+		
+	</div>
+	
+	<script> 			
+		//定时器自动加载 			
+		window.onload =function(){ 				
+			setInterval(btn,4*1000);//设置多久执行一次,1000毫秒=1秒
+		}
+		function btn(){
+			var img = document.getElementById("img");
+			var ran = Math.floor(Math.random()*5);//生成0和7之间的随机整数；由于会随机到0，所以建议图片命名从0开始			
+			img.src = "img/" + ran + ".jpg";
+		}
+	</script>	
+			
+			<div class="container">
+				<div class="ping1">
+					<div class="ptext">
+						<span class="boder">
+							迷失在每日纷繁多变的新闻中，我们对此常常如同雾里看花，既看不懂现实，也看不清未来。
+						</span>
+					</div>
+				</div>
+
+				<section class="sectionWhite"><!--浅色解说框-->
+					<h3>网站简介</h3>
+					<p class="articleText"><strong>
+					  本网站认为，要厘清今天中美关系的本质，我们需要把视角放得更久远一些，将今天的国际现实放在人类文明演进历史的坐标上。<br></strong>
+					</p>
+					<p class="articleText"><strong>
+					  中国今天独特的政治文化在历史长河中是如何产生的，与西方有何不同？现代化如何在西方出现并席卷全球？今天的国际环境是如何形成的，美国在中间扮演何种角色，对其他国家拥有怎样的影响力、支配权？美国的硬实力有哪些，对今天国际秩序，尤其是经济体系有哪些决定权？中国是如何利用现有的国际秩序在过去四十年实现了历史性的起飞，今天遇到了怎样的问题？面对今天美国的压力，中国以后有哪些选择的空间，又要避免哪些陷阱，和美国应该形成怎样的关系才能实现自身利益最大化，并最终实现现代化？系统地回答上述问题，能够帮助我们看清中国的未来。</strong>
+					</p>
+				</section>
+
+				<div class="ping2">
+					<div class="ptext">
+						<span class="boder">
+							时间向来是最能用来做证明的东西，例如中美历史的发展。
+						</span>
+					</div>
+				</div>
+
+				<section class="sectionBlack">
+					<div id="a"><h3>中美历史时间线</h3></div>
+				</section>
+				<section class="sectionWhite1"><!--浅色解说框-->
+					<div class="div1">
+						<p class="p">中华人民共和国成立<br>1949年</p>
+						<br><br><br><br><br><br>
+						<p class="p">第一个五年计划开始<br>1953年-1957年</p>
+						<p class="p">三大改造<br>1953年-1956年</p>
+						<p class="p">中华人民共和国宪法诞生<br>1954年</p>
+						<br><br><br><br><br><br>
+						<p class="p">尼克松访华<br>1972年</p>
+						<br><br><br><br><br><br>
+						<p class="p">改革开放<br>1978年</p>
+						<br><br><br><br><br><br>
+						<p class="p">中美正式建交<br>1979年</p>
+						<br><br><br><br><br><br>
+						<p class="p">加入亚太经合组织<br>1991年</p>
+						<p class="p">香港回归<br>1997年</p>
+						<p class="p">澳门回归<br>1999年</p>
+						<br><br><br><br><br><br>
+						<p class="p">加入世贸组织<br>2001年</p>
+						<p class="p">北京奥运会<br>2008年</p>
+						<br><br><br><br><br><br>
+						<p class="p">中美贸易战<br>2018年-2020年</p>
+					</div>
+					
+					<div class="div2">
+						<p class="p">美国、加拿大和14个西欧国家在华盛顿签署一项公约，建立北大西洋公约组织<br>1949年</p>
+						<br><br><br><br><br><br>
+						<p class="p">美国与英国、法国、新西兰、澳大利亚、菲律宾、泰国和巴基斯坦建立东南亚条约组织<br>1954年</p>
+						<br><br><br><br><br><br>
+						<p class="p">肯尼迪总统在得克萨斯州达拉斯市遇刺身亡<br>1963年</p>
+						<br><br><br><br><br><br>
+						<p class="p">“阿波罗”11号飞船登月成功，人类首次踏上月球<br>1969年</p>
+						<br><br><br><br><br><br>
+						<p class="p">美国总统尼克松抵达北京，对中国进行为期8天的访问，与中国领导人举行会谈。访问结束时，中美签署上海公报<br>1972年</p>
+						<br><br><br><br><br><br>
+						<p class="p">福特总统访问中国，并与毛泽东主席及邓小平副总理会谈<br>1975年</p>
+						<br><br><br><br><br><br>
+						<p class="p">美国与中华人民共和国建立全面外交关系<br>1979年</p>
+						<br><br><br><br><br><br>
+						<p class="p">中美贸易战<br>2018年-2020年</p>
+					</div>
+				</section>
+				
+				<div class="ping3">
+					<div class="ptext">
+						<span class="boder">
+							中美贸易争端（Trade disputes between China and the United States），又称中美贸易战、中美贸易摩擦，是中美经济关系中的重要问题。
+						</span>
+					</div>
+				</div>
+
+				<section class="sectionBlack">
+					<div id="b"><h3>中美基本情况对比</h3></div>
+				</section>
+				<section class="sectionWhite"><!--浅色解说框-->
+					<p class="articleText"><strong>
+					  中国与美国作为世界两大经济体，对全球经济的影响都很大。而中美之间的贸易战自然牵动着世界人民的心。自打双方发动贸易战争以来，全球的经济都受到了一定影响，美国作为全球第一大经济体，中国飞速的发展势必会影响到它，作为一个霸权主义国家，美国的做法也有理可循。</strong>
+					</p>
+				</section>
+				
+				<section class="sectionBlack">
+					<h3>中美GDP与人均GDP比对</h3>
+				</section>
+				<section class="sectionWhite"><!--浅色解说框-->
+					<p class="articleText">
+						
+						<div><img class="img1" src="img/GDP.png" alt="GDP比对" >
+							<p class="articleText"><strong>
+								美国的GDP与人均GDP均呈上升趋势，且差别不大。中国的GDP上升幅度很大，但是人均GDP却上升很小，与国家GDP拉开了很大的距离</strong></p>
+						</div>
+					</p>
+				</section>
+			
+				<section class="sectionBlack">
+					<h3>中美人口增长对比</h3>
+				</section>
+				<section class="sectionWhite"><!--浅色解说框-->
+					<p class="articleText">
+						<div><img class="img1" src="img/人口.png" alt="人口数据" >
+							<p class="articleText"><strong>
+								两个国家的人口都是慢幅增长，呈正增长。两国人口增长率都在下降，不同的是，美国人口下降率并不平稳，波动较大，而中国则平稳下降，这与政策也有很大关系。</strong></p>
+						</div>
+					</p>
+				</section>
+		
+				<section class="sectionBlack">
+					<h3>两国出口情况</h3>
+				</section>
+				<section class="sectionWhite"><!--浅色解说框-->
+					<p class="articleText">
+						<div><img class="img1" src="img/出口.png" alt="出口" >
+							<p class="articleText"><strong>
+								中美双方在出口方面都将对方排进了前三，毫无疑问对方是自己很大的商品出口方向。经济全球化趋势下，中美双方经济交往密切。作为全球的第一和第二大经济体，中美双方进行贸易战争影响势必巨大。</strong></p>
+						</div>
+					</p>
+				</section>
+				
+				<div class="ping4">
+					<div class="ptext">
+						<span class="boder">
+							中美贸易关系自从两国建立贸易关系以来就在摩擦和曲折中发展。
+						</span>
+					</div>
+				</div>
+
+				<section class="sectionBlack">
+					<h3>中美贸易战发展</h3>
+				</section>
+				<section class="sectionWhite"><!--浅色解说框-->
+					<p class="articleText">
+						<div><img class="img1" src="img/中美贸易战发展.png" alt="中美贸易战发展" >
+							<p class="articleText"><strong>
+								从各个阶段的时间对应关系上面，可以看出中方为了维护自身正当权益和全球自由贸易秩序，不得不同步进行反制。从500亿美元到1000亿美元再到2000亿美元进一步对华加征关税，贸易局势紧张。</strong></p>
+			  				<p class="articleText">（注：301调查是美国依据301条款进行的调查，301条款是指《1988年综合贸易与竞争法》第1301－1310节的全部内容，其主要含义是保护美国在国际贸易中的权利，对其他被认为贸易做法“不合理”、“不公平”的国家进行报复。根据这项条款，美国可以对它认为是“不公平”的其他国家的贸易做法进行调查，并可与有关国家政府协商，最后由总统决定采取提高关税、限制进口、停止有关协定等报复措施。）</p>
+						</div>
+					</p>
+				  
+				</section>
+				
+				<div class="ping5">
+					<div class="ptext">
+						<span class="boder">
+							国家领导人至关重要，他们的每一个决定都关系着全国甚至全世界的人民。
+						</span>
+					</div>
+				</div>
+
+				<section class="sectionBlack">
+					<div id="c"><h3>中美领导人在任时间</h3></div>
+				</section>
+				
+				<section class="sectionWhite1"><!--浅色解说框-->
+					<div class="div1">
+						<a href="https://baike.baidu.com/item/%E6%AF%9B%E6%B3%BD%E4%B8%9C/113835?fr=aladdin"><img class="img" src="img/毛泽东.jpg" alt="毛泽东"></a>
+						<p class="p">毛泽东<br>任期：<br>1949年9月-1959年4月<br>(1989年-1976年）</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E5%88%98%E5%B0%91%E5%A5%87"><img class="img" src="img/刘少奇.jpg" alt="刘少奇"></a>
+						<p class="p">刘少奇<br>任期：<br>1959年4月-1966年<br>（1898年-1969年）</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E6%9D%8E%E5%85%88%E5%BF%B5/115208"><img class="img" src="img/李先念.jpg" alt="李先念"></a>
+						<p class="p">李先念<br>任期：<br>1983年6月-1988年4月<br>（1909年-1992年）</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E6%9D%A8%E5%B0%9A%E6%98%86"><img class="img" src="img/杨尚昆.jpg" alt="杨尚昆"></a>
+						<p class="p">杨尚昆<br>任期：<br>1988年4月-1993年3月<br>(1907年-1998年)</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E6%B1%9F%E6%B3%BD%E6%B0%91"><img class="img" src="img/江泽民.jpg" alt="江泽民"></a>
+						<p class="p">江泽民<br>任期：<br>1993年3月-2003年3月<br>（1926年-今）</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E8%83%A1%E9%94%A6%E6%B6%9B/115347?fr=aladdin"><img class="img" src="img/胡锦涛.jpg" alt="胡锦涛"></a>
+						<p class="p">胡锦涛<br>任期：<br>2003年-2013年3月<br>（1942年-今）</p>
+									<br><br><br><br><br><br>
+						<a href="https://baike.baidu.com/item/%E4%B9%A0%E8%BF%91%E5%B9%B3"><img class="img" src="img/习近平.jpg" alt="习近平"></a>
+						<p class="p">习近平<br>任期：<br>2003年3月-今&emsp;&emsp;&emsp;<br>（1953年-今）</p>
+						</div>
+						<div class="div2">
+						<a href="https://baike.baidu.com/item/%E5%93%88%E9%87%8C%C2%B7S%C2%B7%E6%9D%9C%E9%B2%81%E9%97%A8/81150"><img class="img" src="img/杜鲁门.jpg" alt="哈里·S·杜鲁门"></a>
+						<p class="p">哈里·S·杜鲁门<br>任期：<br>1945年4月-1953年1月<br>（1834年-1972年）</p>
+						<a href="https://baike.baidu.com/item/%E5%BE%B7%E6%80%80%E7%89%B9%C2%B7%E6%88%B4%E7%BB%B4%C2%B7%E8%89%BE%E6%A3%AE%E8%B1%AA%E5%A8%81%E5%B0%94/82404"><img class="img" src="img/德怀特·戴维·艾森豪威尔.jpg" alt="德怀特·戴维·艾森豪威尔"></a>	
+						<p class="p">德怀特·戴维·艾森豪威尔<br>任期：<br>1953年1月-1961年1月<br>（1890年-1969年）</p>
+						<a href="https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E8%82%AF%E5%B0%BC%E8%BF%AA"><img class="img" src="img/肯尼迪.jpg" alt="约翰·肯尼迪"></a>
+						<p class="p">约翰·肯尼迪<br>任期：<br>1961年1月-1963年11月<br>（1917年-1963年）</p>
+						<a href="https://baike.baidu.com/item/%E6%9E%97%E7%99%BB%C2%B7%E7%BA%A6%E7%BF%B0%E9%80%8A"><img class="img" src="img/林登·约翰逊.jpg" alt="林登·约翰逊"></a>
+						<p class="p">林登·约翰逊<br>任期：<br>1963年1月-1969年11月<br>（1908年-1973年）</p>
+						<a href="https://baike.baidu.com/item/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E5%B0%BC%E5%85%8B%E6%9D%BE"><img class="img" src="img/尼克松.jpg" alt="理查德·尼克松"></a>
+						<p class="p">理查德·尼克松<br>任期：<br>1969年1月-1974年8月<br>（1913年-1994年）</p>
+						<a href="https://baike.baidu.com/item/%E6%9D%B0%E6%8B%89%E5%B0%94%E5%BE%B7%C2%B7%E7%A6%8F%E7%89%B9"><img class="img" src="img/福特.jpg" alt="杰拉尔德·福特"></a>
+						<p class="p">杰拉尔德·福特<br>任期：<br>1974年8月-1977年1月<br>（1913年-2006年）</p>
+						<a href="https://baike.baidu.com/item/%E5%90%89%E7%B1%B3%C2%B7%E5%8D%A1%E7%89%B9"><img class="img" src="img/吉米·卡特.jpg" alt="吉米·卡特"></a>
+						<p class="p">吉米·卡特<br>任期：<br>1977年1月-1981年1月<br>（1924年-今）</p>
+						<a href="https://baike.baidu.com/item/%E7%BD%97%E7%BA%B3%E5%BE%B7%C2%B7%E9%87%8C%E6%A0%B9"><img class="img" src="img/罗纳德·里根.jpg" alt="罗纳德·里根"></a>
+						<p class="p">罗纳德·里根<br>任期：<br>1981年-1989年<br>（1911年-2004年）</p>
+						<a href="https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E8%B5%AB%E4%BC%AF%E7%89%B9%C2%B7%E6%B2%83%E5%85%8B%C2%B7%E5%B8%83%E4%BB%80"><img class="img" src="img/老不什.jpg" alt="乔治·赫伯特·沃克·布什"></a>
+						<p class="p">乔治·赫伯特·沃克·布什<br>任期：<br>1989年1月-1993年1月<br>（1924年-2018年）</p>
+						<a href="https://baike.baidu.com/item/%E6%AF%94%E5%B0%94%C2%B7%E5%85%8B%E6%9E%97%E9%A1%BF"><img class="img" src="img/克林顿.jpg" alt="比尔·克林顿"></a>
+						<p class="p">比尔·克林顿<br>任期：<br>1993年1月-2003年1月<br>（1946年-今）</p>
+						<a href="https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E6%B2%83%E5%85%8B%C2%B7%E5%B8%83%E4%BB%80"><img class="img" src="img/小布什.jpg" alt="乔治·沃克·布什"></a>
+						<p class="p">乔治·沃克·布什<br>任期：<br>2001年1月-2009年1月<br>（1946年-今）</p>
+						<a href="https://baike.baidu.com/item/%E8%B4%9D%E6%8B%89%E5%85%8B%C2%B7%E5%A5%A5%E5%B7%B4%E9%A9%AC"><img class ="img" src="img/贝拉克·奥巴马.jpg" alt="贝拉克·奥巴马"></a>
+						<p class="p">贝拉克·奥巴马<br>任期：<br>2009年1月-2017年1月<br>（1961年-今）</p>
+						<a href="https://baike.baidu.com/item/%E5%94%90%E7%BA%B3%E5%BE%B7%C2%B7%E7%89%B9%E6%9C%97%E6%99%AE"><img class="img" src="img/特朗普.jpg" alt="唐纳德·特朗普"></a>
+						<p class="p">唐纳德·特朗普<br>任期：<br>2017年1月-今<br>（1946年-今）</p>
+					  </div>
+					
+				</section>
+				
+				<div class="ping6">
+					<div class="ptext">
+						<span class="boder">
+							中美间存在分歧是正常的，重要的是双方增进相互了解和理解，正确判断对方的战略意图。两国关系中合作和互利共赢的主流不应改变。
+						</span>
+					</div>
+				</div>
+			</div>
+
+		</article>
+
+		<div>
+			<footer>制作单位:江禹昕、李彦君小组
+				<!--下面添加地址-->   	
+				<address>如有侵权请联系：
+					<a href="mailto:2858718435@qq.com">2858718435@qq.com</a>/All rights reserved.
+				</address>
+			</footer>
+		</div>
+
+	</body>
+</html>
